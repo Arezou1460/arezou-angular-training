@@ -1,0 +1,66 @@
+.shopping-cart-item {
+    border: 0.1rem solid purple;
+    float: right;
+    width: 100%;
+    margin-bottom: 1.4rem;
+    
+    .content {
+        padding: 1.5rem;
+
+        .product-img {
+            height: 14vh;
+            float: left;
+            margin-bottom: 1.4rem;
+        }
+        
+        .product-name {
+            font-size: 1.2rem;
+            font-weight: 600;
+            float: left;
+            padding: 1rem;
+        }
+
+        .product-price {
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: rgb(218, 27, 218);
+            float: left;
+            padding-top: 3rem;
+            margin-left: -11rem;
+            
+        }
+
+        .action-list {
+            float: right;
+            margin-top: 2.5rem;
+
+            .button-delete {
+                font-size: 1rem;
+                margin-left: 1.5rem;
+                background-color: rgb(241, 63, 122);
+                border-radius: 0.5rem;
+                padding: 0.4rem 0.6rem 0.4rem 0.6rem;
+            }
+
+            .button-increase , .button-decrease {
+                font-size: 1rem;
+                border-radius: 0.5rem;
+                padding: 0.4rem 0.6rem 0.4rem 0.6rem;
+                background-color: pink;
+            }
+
+            .textfield {
+                width: 5vw;
+                text-align: center;
+                font-size: 1rem;
+                border-radius: 0.5rem;
+                padding: 0.4rem;
+            }
+        } 
+    }
+}
+
+    
+   
+
+
